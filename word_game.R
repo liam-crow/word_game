@@ -21,6 +21,3 @@ word_game_function <- function(input, min){
 }
 
 word_game_function('dveeni', 4)
-
-input <- c('dveeni')
-min <- 4
