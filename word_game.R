@@ -23,3 +23,4 @@ word_game_function <- function(input, min){
 # Example usage
 word_game_function('pollops', 4)
 
+
