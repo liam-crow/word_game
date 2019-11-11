@@ -5,7 +5,7 @@ library(tidyr)
 
 words <- read.table('words_alpha.txt', header = T, stringsAsFactors = F)
 
-word_game_function <- function(input, min){
+word_game_function <- function(input, min = 3){
   x <- unlist(strsplit(input, split = "")) # Splits the string into single characters
   l <- length(x) # determine amount of characters
   merge <- NULL # initialise
@@ -21,4 +21,4 @@ word_game_function <- function(input, min){
 }
 
 # Example usage
-word_game_function('pollops', 4)
+word_game_function('bristly')
